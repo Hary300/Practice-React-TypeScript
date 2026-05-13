@@ -1,13 +1,11 @@
-import ActiveUserList from './components/ActiveUserList';
-import FoodList from './components/FoodList';
-import ProductList from './components/ProductList';
+import ProductGrid from './components/ProductGrid';
+import UserList from './components/UserList';
 
 function App() {
   return (
     <>
-      <FoodList />
-      <ProductList />
-      <ActiveUserList />
+      <UserList />
+      <ProductGrid />
     </>
   );
 }
