@@ -1,13 +1,9 @@
-import LiveInput from './components/LiveInput';
-import LoginForm from './components/LoginForm';
-import SearchBox from './components/SearchBox';
+import FetchApi from './components/FetchApi';
 
 function App() {
   return (
     <>
-      <LiveInput />
-      <LoginForm />
-      <SearchBox />
+      <FetchApi />
     </>
   );
 }
