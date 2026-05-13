@@ -1,12 +1,19 @@
-export default function ProductCard() {
-  const productName = 'Laptop';
-  const price = 100;
+type ProductCardProp = {
+  name: string;
+  price: number;
+  isAvailable: boolean;
+};
 
+export default function ProductCard({
+  name,
+  price,
+  isAvailable,
+}: ProductCardProp) {
   return (
     <div>
-      <h2>Product Info</h2>
-      <p>Product Name: {productName}</p>
+      <p>Product Name: {name}</p>
       <p>Price: {price}</p>
+      <p>Status: {isAvailable ? 'Available' : 'Out of stock'}</p>
     </div>
   );
 }

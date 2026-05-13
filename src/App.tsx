@@ -1,11 +1,16 @@
 import ProductCard from './components/ProductCard';
-import UserCard from './components/UserCard';
+import ProfileCard from './components/ProfileCard';
 
 function App() {
   return (
     <>
-      <UserCard />
-      <ProductCard />
+      <h2>User Info</h2>
+      <ProfileCard name='Harry' age={20} country='Indonesia' />
+      <ProfileCard name='Ben' age={50} country='USA' />
+      <br />
+      <h2>Product Info</h2>
+      <ProductCard name='Laptop' price={100} isAvailable={true} />
+      <ProductCard name='Monitor' price={70} isAvailable={false} />
     </>
   );
 }
