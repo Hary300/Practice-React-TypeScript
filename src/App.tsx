@@ -1,13 +1,13 @@
-import CounterUpgrade from './components/CounterUpgrade';
-import NameChanger from './components/NameChanger';
-import ToggleButton from './components/ToggleButton';
+import LiveInput from './components/LiveInput';
+import LoginForm from './components/LoginForm';
+import SearchBox from './components/SearchBox';
 
 function App() {
   return (
     <>
-      <CounterUpgrade />
-      <ToggleButton />
-      <NameChanger />
+      <LiveInput />
+      <LoginForm />
+      <SearchBox />
     </>
   );
 }
