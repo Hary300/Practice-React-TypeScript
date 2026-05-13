@@ -1,13 +1,13 @@
-import AgeChecker from './components/AgeChecker';
-import LoginStatus from './components/LoginStatus';
-import ShowHidePass from './components/ShowHidePassword';
+import ActiveUserList from './components/ActiveUserList';
+import FoodList from './components/FoodList';
+import ProductList from './components/ProductList';
 
 function App() {
   return (
     <>
-      <LoginStatus />
-      <ShowHidePass />
-      <AgeChecker />
+      <FoodList />
+      <ProductList />
+      <ActiveUserList />
     </>
   );
 }
