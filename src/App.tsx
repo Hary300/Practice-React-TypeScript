@@ -1,9 +1,13 @@
-import FetchApi from './components/FetchApi';
+import AgeChecker from './components/AgeChecker';
+import LoginStatus from './components/LoginStatus';
+import ShowHidePass from './components/ShowHidePassword';
 
 function App() {
   return (
     <>
-      <FetchApi />
+      <LoginStatus />
+      <ShowHidePass />
+      <AgeChecker />
     </>
   );
 }
